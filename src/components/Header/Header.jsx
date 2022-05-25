@@ -14,9 +14,6 @@ const Header = () => {
     <Link to='/add'>
     <Navbar.Brand className={location.pathname === '/add' ? "btn btn-success" : "btn btn-light"}>add</Navbar.Brand>
       </Link>
-    <Link to='/edit'>
-    <Navbar.Brand className={location.pathname === '/edit' ? "btn btn-success" : "btn btn-light"}>Edit</Navbar.Brand>
-      </Link>
     <Link to='/contacts'>
     <Navbar.Brand className={location.pathname === '/contacts' ? "btn btn-success" : "btn btn-light"}>Contacts</Navbar.Brand>
       </Link>
